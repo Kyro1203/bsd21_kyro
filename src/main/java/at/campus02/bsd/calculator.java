@@ -1,4 +1,7 @@
-package main.java
+package at.campus02.bsd;
+
+import java.util.Scanner;
+
 public class calculator {
 
     public static Scanner scanner = new Scanner(System.in);
