@@ -11,15 +11,37 @@ public class calculator {
 
     public static Scanner scanner = new Scanner(System.in);
 
+    /**
+     * Adds two numbers
+     * @param UsersInput first number
+     * @param UsersInput1 second number
+     * @return Value of first number added with the second number
+     */
 
     public static double add(double UsersInput, double UsersInput1){
         logger.debug(UsersInput + "+" + UsersInput1);
         return UsersInput + UsersInput1;
     }
+
+    /**
+     * Subtract two numbers
+     * @param UsersInput first number
+     * @param UsersInput1 second number
+     * @return Value of first number minus with the second number
+     */
+
     public static double minus(double UsersInput, double UsersInput1){
         logger.debug(UsersInput + "-" + UsersInput1);
         return UsersInput - UsersInput1;
     }
+
+    /**
+     * divide two numbers
+     * @param UsersInput first number
+     * @param UsersInput1 second number
+     * @return Value of first number divided by the second number
+     */
+
     public static double divide(double UsersInput, double UsersInput1){
         logger.debug(UsersInput + "/" + UsersInput1);
         if (UsersInput1 == 0){
@@ -30,10 +52,25 @@ public class calculator {
             return UsersInput / UsersInput1;
         }
     }
+
+    /**
+     * multiply two numbers
+     * @param UsersInput first number
+     * @param UsersInput1 second number
+     * @return Value of first number multiplied by the second number
+     */
+
     public static double multiply(double UsersInput, double UsersInput1){
         logger.debug(UsersInput + "*" + UsersInput1);
         return UsersInput * UsersInput1;
     }
+
+    /**
+     * faculty of a number
+     * @param Usersinput first number
+     * @return Value of first number multiplied with the same number - 1 until Usersinput is 1
+     */
+
     public static double fakultaet(double Usersinput){
         logger.debug(Usersinput + "!");
         if (Usersinput==1){
