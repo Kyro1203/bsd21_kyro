@@ -5,6 +5,10 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.Scanner;
 
+/**
+ * @author Habib Kyrillos
+ */
+
 public class calculator {
 
     private static Logger logger = LogManager.getLogger();
