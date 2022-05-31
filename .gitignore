@@ -3,5 +3,6 @@ exercise1.html
 .idea
 target
 *.log
+log4js.xml
 
 
