@@ -86,13 +86,11 @@ public class CalcTest {
      * Tests if the method divide works correctly when the second input is 0
      * @throws ArithmeticException
      */
-    /*
     @Test
     void exceptionTest(){
         Assertions.assertThrows(ArithmeticException.class,()-> c.divide(5,0));
     }
 
-     */
 
     /**
      * Tests if the method faculty in class calculator works correctly by giving the pointer an
