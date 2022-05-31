@@ -20,9 +20,11 @@ public class calculator {
         return UsersInput * UsersInput1;
     }
     public static double fakultaet(double Usersinput){
-        if (Usersinput<=1){
+        if (Usersinput==1){
             return 1;
-        }else {
+        }else if(Usersinput<=0){
+            return 0;
+        } else {
             return Usersinput * fakultaet(Usersinput - 1);
         }
     }

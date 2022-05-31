@@ -5,7 +5,6 @@ public class Main {
 
         calculator calculator = new calculator();
 
-
         System.out.println(calculator.add(1, 1));
         System.out.println(calculator.minus(1, 1));
         System.out.println(calculator.multiply(1,1));
